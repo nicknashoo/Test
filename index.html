@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logo.png" />
+
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section id="header" class="first-section">
+        <div class="container first-section__container">
+            <nav class="navbar first-section__container__nav" role="navigation" aria-label="main navigation">
+                <div class="first-section__container__nav__navbar">
+                    <a class="" href="">
+                        <img src="./img/logo.png">
+                    </a>
+
+                    <a role="button" class="navbar-burger" aria-label="" aria-expanded="false"
+                        data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#header" class="menu__link">Главная</a></li>
+                        <li class="menu__item"><a href="#guide" class="menu__link">Про гида</a></li>
+                        <li class="menu__item"><a href="#programm" class="menu__link">Программа тура</a></li>
+                        <li class="menu__item"><a href="#cost" class="menu__link">Стоимость</a></li>
+                        <li class="menu__item"><a href="#blog" class="menu__link">Блог</a></li>
+                        <li class="menu__item"><a href="#contact" class="menu__link">Контакты</a></li>
+                    </ul>
+                </div>
+
+                <div class="navbar-end">
+                    <a href="#header" class="navbar-item">
+                        Главная
+                    </a>
+                    <a href="#guide" class="navbar-item">
+                        Про гида
+                    </a>
+                    <a href="#programm" class="navbar-item">
+                        Программа тура
+                    </a>
+                    <a href="#cost" class="navbar-item">
+                        Стоимость
+                    </a>
+                    <a href="#blog" class="navbar-item">
+                        Блог
+                    </a>
+                    <a href="#contact" class="navbar-item">
+                        Контакты
+                    </a>
+                    <div class="button navbar__btn">
+                        <p>Консультация</p>
+                    </div>
+                </div>
+            </nav>
+            <div class="first-section__content">
+                <h1 class="first-section__content__h1">Насладись прогулкой в горах
+                    с командой единомышленников</h1>
+                <div class="first-section__content__program-wrap">
+                    <div class="first-section__content__program-wrap__box">
+                        <select class="first-section__select" name="location" id="location-select">
+                            <option value="">Локация для тура</option>
+                            <option value="loc1">Локация 1</option>
+                            <option value="loc2">Локация 2</option>
+                            <option value="loc3">Локация 3</option>
+                            <option value="loc4">Локация 4</option>
+                        </select>
+                        <div class="dropdown__about">
+                            <p>выберите из списка</p>
+                        </div>
+                    </div>
+                    <div class="first-section__content__program-wrap__box">
+                        <input class="first-section__input" id="date" type="date" value="00-00-0000" />
+                        <div class="dropdown__about">
+                            <p>укажите диапазон</p>
+                        </div>
+                    </div>
+                    <div class="first-section__content__program-wrap__box">
+                        <select class="first-section__select" name="participants" id="articipants-select">
+                            <option value="">Учатсники</option>
+                            <option value="loc1">Учатсники 1</option>
+                            <option value="loc2">Участники 2</option>
+                            <option value="loc3">Участники 3</option>
+                            <option value="loc4">Участники 4</option>
+                        </select>
+                        <div class="dropdown__about">
+                            <p>минимум 4 человека</p>
+                        </div>
+                    </div>
+                    <button class="first-section__content__btn">Найти программу</button>
+                </div>
+                <div class="first-section__btn-mobile">
+                    <button class="first-section__content__btn">Найти программу</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="guide" class="second-section">
+        <div class="container second-section__container">
+            <div class="second-section__container__left-wrap">
+                <div class="second-section__container__left-wrap__back-image picture">
+                    <img src="./img/secondsection-img2.png" alt="">
+                </div>
+                <div class="second-section__container__left-wrap__front-image picture">
+                    <a href=""><img class="video-play" src="./img/video-play.png" alt=""></a>
+                    <img src="./img/secondsection-img1.png" alt="">
+                </div>
+            </div>
+            <div class="second-section__container__right-wrap">
+                <p class="second-section__container__right-wrap__about">о нашем походе</p>
+                <h2 class="second-section__container__right-wrap__title">Исследуйте все горные массивы мира вместе с
+                    нами</h2>
+                <p class="second-section__container__right-wrap__desc">Его корни уходят в один фрагмент классической
+                    латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из
+                    колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum,
+                    "consectetur"и занялся его поисками в классической латинской литературе.</p>
+                <div class="button second-section__btn">
+                    <p>Программа тура</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="programm" class="third-section">
+        <div class="container third-section__container">
+            <div class="third-section__container__left-wrap second-section__container__right-wrap">
+                <p class="second-section__container__right-wrap__about">наше предложение</p>
+                <h2 class="second-section__container__right-wrap__title">Лучшие программы для тебя</h2>
+                <p class="second-section__container__right-wrap__desc">Его корни уходят в один фрагмент классической
+                    латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из
+                    колледжа.</p>
+                <div class="advantages">
+                    <img class="advantages__icon" src="./img/thitrdsection-guide.png" alt="">
+                    <div class="advantages__text">
+                        <h3 class="advantages__text__title">Опытный гид</h3>
+                        <p class="advantages__text__desc">Для современного мира базовый вектор развития предполагает
+                            независимые способы реализации соответствующих условий активизации.</p>
+                    </div>
+                </div>
+                <div class="advantages">
+                    <img class="advantages__icon" src="./img/thitrdsection-bezopasnost.png" alt="">
+                    <div class="advantages__text">
+                        <h3 class="advantages__text__title">Опытный гид</h3>
+                        <p class="advantages__text__desc">Для современного мира базовый вектор развития предполагает
+                            независимые способы реализации соответствующих условий активизации.</p>
+                    </div>
+                </div>
+                <div class="advantages">
+                    <img class="advantages__icon" src="./img/thitrdsection-prices.png" alt="">
+                    <div class="advantages__text">
+                        <h3 class="advantages__text__title">Опытный гид</h3>
+                        <p class="advantages__text__desc">Для современного мира базовый вектор развития предполагает
+                            независимые способы реализации соответствующих условий активизации.</p>
+                    </div>
+                </div>
+                <div class="button third-section__btn">
+                    <p>Стоимость программ</p>
+                </div>
+            </div>
+            <div class="third-section__container__right-wrap">
+                <div class="row">
+                    <img class="third-section__container__right-wrap__img m-r-10 m-b-10" src="./img/3-4.png" alt="">
+                    <img class="third-section__container__right-wrap__img m-b-10" src="./img/3-1.png" alt="">
+                </div>
+                <div class="row">
+                    <img class="third-section__container__right-wrap__img m-r-10" src="./img/3-2.png" alt="">
+                    <img class="third-section__container__right-wrap__img m-0" src="./img/3-3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cost" class="forth-section">
+        <div class="container forth-section__container">
+            <div class="m500-flex-start">
+                <p class="second-section__container__right-wrap__about">по версии отдыхающих</p>
+                <h2 class="second-section__container__right-wrap__title">Популярные направления</h2>
+            </div>
+            <div class="tours-box">
+                <div class="card-tour">
+                    <img class="card-tour__img" src="./img/popular-tour1.png" alt="">
+                    <div class="card-tour__star-box row">
+                        <img src="./img/star.png" width="" alt="">
+                        <p class="card-tour__star-box__number">4.9</p>
+                    </div>
+                    <div class="card-tour__about">
+                        <div class="column">
+                            <div class="row">
+                                <div class="card-tour__about__text">
+                                    <h4 class="card-tour__about__text__title">Озеро возле гор</h4>
+                                    <p class="card-tour__about__text__desc">романтическое приключение</p>
+                                </div>
+                                <div class="card-tour__about__price">
+                                    <p>480 $</p>
+                                </div>
+                            </div>
+                            <div class="card-tour__desc">
+                                <p class="card-tour__desc__p">Его корни уходят в один фрагмент классической латыни 45
+                                    года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни
+                                    из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem
+                                    Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+                                <div class="button card-tour__desc__btn">
+                                    <p>Программа тура</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-tour">
+                    <img class="card-tour__img" src="./img/popular-tour2.png" alt="">
+                    <div class="card-tour__star-box row">
+                        <img src="./img/star.png" width="" alt="">
+                        <p class="card-tour__star-box__number">4.5</p>
+                    </div>
+                    <div class="card-tour__about">
+                        <div class="column">
+                            <div class="row">
+                                <div class="card-tour__about__text">
+                                    <h4 class="card-tour__about__text__title">Ночь в горах</h4>
+                                    <p class="card-tour__about__text__desc">в компании друзей</p>
+                                </div>
+                                <div class="card-tour__about__price">
+                                    <p>480 $</p>
+                                </div>
+                            </div>
+                            <div class="card-tour__desc">
+                                <p class="card-tour__desc__p">Его корни уходят в один фрагмент классической латыни 45
+                                    года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни
+                                    из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem
+                                    Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+                                <div class="button card-tour__desc__btn">
+                                    <p>Программа тура</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-tour">
+                    <img class="card-tour__img" src="./img/popular-tour3.png" alt="">
+                    <div class="card-tour__star-box row">
+                        <img src="./img/star.png" width="" alt="">
+                        <p class="card-tour__star-box__number">5.0</p>
+                    </div>
+                    <div class="card-tour__about">
+                        <div class="column">
+                            <div class="row">
+                                <div class="card-tour__about__text">
+                                    <h4 class="card-tour__about__text__title">Йога в горах</h4>
+                                    <p class="card-tour__about__text__desc">для тех, кто забоится о себе</p>
+                                </div>
+                                <div class="card-tour__about__price">
+                                    <p>480 $</p>
+                                </div>
+                            </div>
+                            <div class="card-tour__desc">
+                                <p class="card-tour__desc__p">Его корни уходят в один фрагмент классической латыни 45
+                                    года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни
+                                    из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem
+                                    Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+                                <div class="button card-tour__desc__btn">
+                                    <p>Программа тура</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-wrap">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper" style="display: flex; flex-direction: row;">
+                        <div class="swiper-slide" style="flex: 0 0 auto; width: 100%;">
+                            <div class="card-tour">
+                                <img class="card-tour__img" src="./img/popular-tour1.png" alt="">
+                                <div class="card-tour__star-box row">
+                                    <img src="./img/star.png" width="" alt="">
+                                    <p class="card-tour__star-box__number">4.9</p>
+                                </div>
+                                <div class="card-tour__about">
+                                    <div class="column">
+                                        <div class="row">
+                                            <div class="card-tour__about__text">
+                                                <h4 class="card-tour__about__text__title">Озеро возле гор</h4>
+                                                <p class="card-tour__about__text__desc">романтическое приключение</p>
+                                            </div>
+                                            <div class="card-tour__about__price">
+                                                <p>480 $</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-tour__desc">
+                                            <p class="card-tour__desc__p">Его корни уходят в один фрагмент классической
+                                                латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард
+                                                МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния,
+                                                взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся
+                                                его поисками в классической латинской литературе.</p>
+                                            <div class="button card-tour__desc__btn">
+                                                <p>Программа тура</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="flex: 0 0 auto; width: 100%;">
+                            <div class="card-tour">
+                                <img class="card-tour__img" src="./img/popular-tour2.png" alt="">
+                                <div class="card-tour__star-box row">
+                                    <img src="./img/star.png" width="" alt="">
+                                    <p class="card-tour__star-box__number">4.5</p>
+                                </div>
+                                <div class="card-tour__about">
+                                    <div class="column">
+                                        <div class="row">
+                                            <div class="card-tour__about__text">
+                                                <h4 class="card-tour__about__text__title">Ночь в горах</h4>
+                                                <p class="card-tour__about__text__desc">в компании друзей</p>
+                                            </div>
+                                            <div class="card-tour__about__price">
+                                                <p>480 $</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-tour__desc">
+                                            <p class="card-tour__desc__p">Его корни уходят в один фрагмент классической
+                                                латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард
+                                                МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния,
+                                                взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся
+                                                его поисками в классической латинской литературе.</p>
+                                            <div class="button card-tour__desc__btn">
+                                                <p>Программа тура</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="flex: 0 0 auto; width: 100%;">
+                            <div class="card-tour">
+                                <img class="card-tour__img" src="./img/popular-tour3.png" alt="">
+                                <div class="card-tour__star-box row">
+                                    <img src="./img/star.png" width="" alt="">
+                                    <p class="card-tour__star-box__number">5.0</p>
+                                </div>
+                                <div class="card-tour__about">
+                                    <div class="column">
+                                        <div class="row">
+                                            <div class="card-tour__about__text">
+                                                <h4 class="card-tour__about__text__title">Йога в горах</h4>
+                                                <p class="card-tour__about__text__desc">для тех, кто забоится о себе</p>
+                                            </div>
+                                            <div class="card-tour__about__price">
+                                                <p>480 $</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-tour__desc">
+                                            <p class="card-tour__desc__p">Его корни уходят в один фрагмент классической
+                                                латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард
+                                                МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния,
+                                                взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся
+                                                его поисками в классической латинской литературе.</p>
+                                            <div class="button card-tour__desc__btn">
+                                                <p>Программа тура</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button forth-section__btn">
+                <p>Рейтинг направлений</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="fifth-section">
+        <div class="container forth-section__container">
+            <div class="m500-flex-start">
+                <p class="second-section__container__right-wrap__about">делимся впечатлениями</p>
+                <h2 class="second-section__container__right-wrap__title">Блог о путешествиях</h2>
+            </div>
+            <div class="blog-posts-box">
+                <div class="blog-post row">
+                    <div class="blog-post__img">
+                        <img src="./img/blog-post-1.png" alt="">
+                    </div>
+                    <div class="blog-post__text">
+                        <div class="">
+                            <h5 class="blog-post__text__title">Красивая Италя, какая она в реальности?</h5>
+                            <p class="blog-post__text__desc">Для современного мира базовый вектор развития предполагает
+                                независимые способы реализации соответствующих условий активизации.</p>
+                        </div>
+                        <div class="blog-post__text__bottom row">
+                            <p class="blog-post__text__bottom__date">01/04/2023</p>
+                            <p class="blog-post__text__bottom__next-read">читать статью</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-post row m-0 ">
+                    <div class="blog-post__img">
+                        <img src="./img/blog-post-2.png" alt="">
+                    </div>
+                    <div class="blog-post__text">
+                        <div class="">
+                            <h5 class="blog-post__text__title">Долой сомнения! Весь мир открыт для вас!</h5>
+                            <p class="blog-post__text__desc">Для современного мира базовый вектор развития предполагает
+                                независимые способы реализации соответствующих условий активизации ... независимые
+                                способы реализации соответствующих условий активизации ...</p>
+                        </div>
+                        <div class="blog-post__text__bottom row">
+                            <p class="blog-post__text__bottom__date">01/04/2023</p>
+                            <p class="blog-post__text__bottom__next-read">читать статью</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-posts-box">
+                <div class="blog-post row">
+                    <div class="blog-post__img">
+                        <img src="./img/blog-post-3.png" alt="">
+                    </div>
+                    <div class="blog-post__text">
+                        <div class="">
+                            <h5 class="blog-post__text__title">Как подготовиться к путешествию в одиночку? </h5>
+                            <p class="blog-post__text__desc">Для современного мира базовый вектор развития предполагает.
+                            </p>
+                        </div>
+                        <div class="blog-post__text__bottom row">
+                            <p class="blog-post__text__bottom__date">01/04/2023</p>
+                            <p class="blog-post__text__bottom__next-read">читать статью</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-post row m-0 ">
+                    <div class="blog-post__img">
+                        <img src="./img/blog-post-4.png" alt="">
+                    </div>
+                    <div class="blog-post__text">
+                        <div class="">
+                            <h5 class="blog-post__text__title">Индия ... летим?</h5>
+                            <p class="blog-post__text__desc">Для современного мира базовый.</p>
+                        </div>
+                        <div class="blog-post__text__bottom row">
+                            <p class="blog-post__text__bottom__date">01/04/2023</p>
+                            <p class="blog-post__text__bottom__next-read">читать статью</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-wrap">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper" style="display: flex; flex-direction: row;">
+                        <div class="swiper-slide" style="flex: 0 0 auto; width: 100%;">
+                            <div class="blog-post row">
+                                <div class="blog-post__img">
+                                    <img src="./img/blog-post-1.png" alt="">
+                                </div>
+                                <div class="blog-post__text">
+                                    <div class="">
+                                        <h5 class="blog-post__text__title">Красивая Италя, какая она в реальности?</h5>
+                                        <p class="blog-post__text__desc">Для современного мира базовый вектор развития
+                                            предполагает независимые способы реализации соответствующих условий
+                                            активизации.</p>
+                                    </div>
+                                    <div class="blog-post__text__bottom row">
+                                        <p class="blog-post__text__bottom__date">01/04/2023</p>
+                                        <p class="blog-post__text__bottom__next-read">читать статью</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="flex: 0 0 auto; width: 100%;">
+                            <div class="blog-post row m-0 ">
+                                <div class="blog-post__img">
+                                    <img src="./img/blog-post-2.png" alt="">
+                                </div>
+                                <div class="blog-post__text">
+                                    <div class="">
+                                        <h5 class="blog-post__text__title">Долой сомнения! Весь мир открыт для вас!</h5>
+                                        <p class="blog-post__text__desc">Для современного мира базовый вектор развития предполагает
+                                            независимые способы реализации соответствующих условий активизации ... независимые
+                                            способы реализации соответствующих условий активизации ...</p>
+                                    </div>
+                                    <div class="blog-post__text__bottom row">
+                                        <p class="blog-post__text__bottom__date">01/04/2023</p>
+                                        <p class="blog-post__text__bottom__next-read">читать статью</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="flex: 0 0 auto; width: 100%;">
+                            <div class="blog-post row">
+                                <div class="blog-post__img">
+                                    <img src="./img/blog-post-3.png" alt="">
+                                </div>
+                                <div class="blog-post__text">
+                                    <div class="">
+                                        <h5 class="blog-post__text__title">Как подготовиться к путешествию в одиночку? </h5>
+                                        <p class="blog-post__text__desc">Для современного мира базовый вектор развития предполагает.
+                                        </p>
+                                    </div>
+                                    <div class="blog-post__text__bottom row">
+                                        <p class="blog-post__text__bottom__date">01/04/2023</p>
+                                        <p class="blog-post__text__bottom__next-read">читать статью</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="flex: 0 0 auto; width: 100%;">
+                            <div class="blog-post row">
+                                <div class="blog-post__img">
+                                    <img src="./img/blog-post-1.png" alt="">
+                                </div>
+                                <div class="blog-post__text">
+                                    <div class="">
+                                        <h5 class="blog-post__text__title">Красивая Италя, какая она в реальности?</h5>
+                                        <p class="blog-post__text__desc">Для современного мира базовый вектор развития
+                                            предполагает независимые способы реализации соответствующих условий
+                                            активизации.</p>
+                                    </div>
+                                    <div class="blog-post__text__bottom row">
+                                        <p class="blog-post__text__bottom__date">01/04/2023</p>
+                                        <p class="blog-post__text__bottom__next-read">читать статью</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button fifth-section__btn">
+                <p>Другие материалы</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sixth-section">
+        <div class="container forth-section__container">
+            <div class="m500-flex-start">
+                <p class="second-section__container__right-wrap__about">фото-отчет</p>
+                <h2 class="second-section__container__right-wrap__title">Делимся впечатлениями</h2>
+            </div>
+            <div class="sixth-section__wrapper">
+                <div class="row sixth-section__container__photo-box">
+                    <img class="w-50" src="./img/photo-box-1.png" alt="">
+                    <img class="w-25" src="./img/photo-box-2.png" alt="">
+                    <img class="w-25" src="./img/photo-box-3.png" alt="">
+                </div>
+                <div class="row sixth-section__container__photo-box">
+                    <img class="w-25" src="./img/photo-box-5.png" alt="">
+                    <img class="w-50" src="./img/photo-box-4.png" alt="">
+                    <img class="w-25" src="./img/photo-box-6.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-wrap">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper" style="display: flex; flex-direction: row;">
+                        <div class="swiper-slide" style="flex: 0 0 auto; width: 100%;">
+                            <img class="w-50" src="./img/photo-box-1.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="flex: 0 0 auto; width: 100%;">
+                            <img class="w-50" src="./img/photo-box-2.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="flex: 0 0 auto; width: 100%;">
+                            <img class="w-50" src="./img/photo-box-3.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="flex: 0 0 auto; width: 100%;">
+                            <img class="w-50" src="./img/photo-box-4.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="flex: 0 0 auto; width: 100%;">
+                            <img class="w-50" src="./img/photo-box-5.png" alt="">
+                        </div>
+                        <div class="swiper-slide" style="flex: 0 0 auto; width: 100%;">
+                            <img class="w-50" src="./img/photo-box-6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button sixth-section__container__btn">
+                <p>Наш pinterest</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="form-subscribe-mobile-section">
+        <div class="container form-subscribe-mobile">
+            <div class="form-subscribe__left-wrap">
+                <div class="m500-flex-start">
+                    <p class="second-section__container__right-wrap__about">актуально</p>
+                    <h2 class="second-section__container__right-wrap__title m-0">Получайте полезные рассылки о путешествиях</h2>
+                </div>
+            </div>
+            <div class="form-subscribe__right-wrap">
+                <h5 class="form-subscribe__right-wrap__title">Введите e-mail адрес</h5>
+                <div class="form-subscribe__right-wrap__input-btn">
+                    <input type="text" placeholder="name@domain.com">
+                    <div class="button form-subscribe__btn">
+                        <p>Подписаться на новости</p>
+                    </div>
+                </div>
+                <p class="form-subscribe__right-wrap__sogl">подписываясь на новости, вы автоматически соглашаетесь с <a
+                        href="">условиями обработки персональных данных и правилами рекламных рассылок</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container form-subscribe">
+            <div class="form-subscribe__left-wrap">
+                <div class="m500-flex-start">
+                    <p class="second-section__container__right-wrap__about">актуально</p>
+                    <h2 class="second-section__container__right-wrap__title m-0">Получайте полезные рассылки о путешествиях</h2>
+                </div>
+            </div>
+            <div class="form-subscribe__right-wrap">
+                <h5 class="form-subscribe__right-wrap__title">Введите e-mail адрес</h5>
+                <div class="form-subscribe__right-wrap__input-btn">
+                    <input type="text" placeholder="name@domain.com">
+                    <div class="button form-subscribe__btn">
+                        <p>Подписаться на новости</p>
+                    </div>
+                </div>
+                <p class="form-subscribe__right-wrap__sogl">подписываясь на новости, вы автоматически соглашаетесь с <a
+                        href="">условиями обработки персональных данных и правилами рекламных рассылок</a></p>
+            </div>
+        </div>
+        <div class="container footer__container">
+            <div class="footer__container__about-company">
+                <h2 class="footer__title">Компания «РумТибет»</h2>
+                <p class="footer__p">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более
+                    двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney.</p>
+                <div class="footer__container__about-company__contacts">
+                    <a class="footer__container__about-company__contacts__a" href="">info@domain.com</a>
+                    <a class="footer__container__about-company__contacts__a" href="">+7 (123) 456-78-90</a>
+                </div>
+                <div class="footer__container__about-company__links row">
+                    <a class="footer-link" href=""><img src="./img/telegram.png" alt=""></a>
+                    <a class="footer-link" href=""><img src="./img/vkontakte.png" alt=""></a>
+                    <a class="footer-link" href=""><img src="./img/pinterest.png" alt=""></a>
+                    <a class="footer-link" href=""><img src="./img/skype.png" alt=""></a>
+                </div>
+            </div>
+            <div class="footer__container__our-services">
+                <h2 class="footer__title">Наши услуги</h2>
+                <ul class="footer__container__ul">
+                    <li class="footer__p footer__container__li">Прогулки в горы летом</li>
+                    <li class="footer__p footer__container__li">Зимние походы в горы</li>
+                    <li class="footer__p footer__container__li">Посещение храмов в горах</li>
+                    <li class="footer__p footer__container__li">Экстремальные виды туризма</li>
+                    <li class="footer__p footer__container__li">Походы в джунглях Амазонии</li>
+                    <li class="footer__p footer__container__li">Поездка в Африку</li>
+                </ul>
+            </div>
+            <div class="footer__container__questions">
+                <h2 class="footer__title">Важно для путешествий</h2>
+                <ul class="footer__container__ul">
+                    <li class="footer__p footer__container__li">Как собрать в долгий поход?</li>
+                    <li class="footer__p footer__container__li">Жизненно важные предметы для похода</li>
+                    <li class="footer__p footer__container__li">Медицинская страховка, гарантии безопасности</li>
+                    <li class="footer__p footer__container__li">Если вы врач - загляните сюда</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <section class="copyright">
+        <div class="container copyright__container">
+            <p>ИП Константинопольский К.К., 2023</p>
+            <a href="">Политика обработки персональных данных</a>
+        </div>
+        </div>
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="./js/swiper.js"></script>
+        <script src="./js/burger.js"></script>
+</body>
+
+</html>
